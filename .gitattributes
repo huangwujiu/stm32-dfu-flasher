@@ -1,0 +1,5 @@
+# 统一使用 LF 行尾，避免 Windows CRLF 在跨平台协作时产生 diff 噪音
+* text=auto eol=lf
+
+# 截图等二进制资产不做行尾转换
+*.png binary

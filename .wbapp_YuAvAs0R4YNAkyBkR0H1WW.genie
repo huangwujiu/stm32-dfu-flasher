@@ -1,0 +1,5 @@
+appId: wbapp_YuAvAs0R4YNAkyBkR0H1WW
+name: STM32 DFU 升级工具
+localDir: D:\C_UI_Work\DFU_Programming\release
+appType: web
+entryHtml: index.html
