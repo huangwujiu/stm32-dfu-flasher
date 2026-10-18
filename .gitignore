@@ -1,14 +1,6 @@
-# 固件备份：含设备真实 Flash 内容（bootloader + APP），禁止外传
-# 注意：test/app-upgrade.js 的写操作安全约束依赖这些文件，
-#       克隆后需在真机上自行生成备份才能跑写入路径测试。
-test/flash-backup-*.bin
-test/app-backup.bin
-
-# Edge 自动化测试产生的临时 profile（单个 20~30MB）
-test/edge-*/
-
-# 测试截图（可由测试重新生成，不入库）
-test/*.png
+# 本地测试套件与固件备份：保留在工作区供开发使用，但不入公开仓库
+# （备份含设备真实 Flash 内容——bootloader + APP，绝不能外传）
+test/
 
 # 代理工作记忆（非项目源码）
 .workbuddy/
